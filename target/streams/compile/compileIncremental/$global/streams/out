@@ -1,33 +1,33 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3263dc90, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2967112d, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/sumanth_bbn/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/target/scala-2.11/classes:/Users/sumanth_bbn/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4-SNAPSHOT.jar:/Users/sumanth_bbn/installers/activator-dist-1.3.6/repository/com.typesafe/config/1.3.0/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.131325579 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer7.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0mScala compilation took 4.273058478 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/sumanth_bbn/workspace/workspaceTrail/webserverSample/src/main/scala-2.11/in/Sample/Server/SampleServer8.scala source file has the following implicit definitions changed:[0m
 [0m[[0mdebug[0m] [0m	ec.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m

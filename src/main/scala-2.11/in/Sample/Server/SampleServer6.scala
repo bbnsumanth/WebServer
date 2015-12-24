@@ -12,7 +12,7 @@ object BlockingCall6{
   def blocking(counter:Int) ={
     val thread =Thread.currentThread.getName()
     println(s"entered blocking call for request $counter on thread: $thread")
-    Thread.sleep(5000)
+    Thread.sleep(50000)
     (counter,thread)
   }
 }
