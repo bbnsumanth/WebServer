@@ -19,7 +19,7 @@ object BlockingCall8{
 
 
 object Handler8 {
-  def run(socket: Socket,counter:Int,handlerPool:ExecutorService) = {
+  def run(socket: Socket,counter:Int) = {
     val message = (s"server up and running.serving this request:$counter on thread:${Thread.currentThread.getName()} "+"\n")
 
     println(s"handling request: $counter on thread : ${Thread.currentThread.getName()}")
@@ -36,9 +36,9 @@ object SampleServer8 extends App{
   val text = "Server is up and running"
   val port = 4040
   val poolSize = 5
-  val handleerPoolSize = 2
+  //val handleerPoolSize = 2
   val serverSocket: ServerSocket = new ServerSocket(port)
-  val handlerpool: ExecutorService = Executors.newFixedThreadPool(handleerPoolSize)
+  //val handlerpool: ExecutorService = Executors.newFixedThreadPool(handleerPoolSize)
   implicit val ec: ExecutionContextExecutor = ExecutionContext.fromExecutor(Executors.newFixedThreadPool(poolSize))
 
   println(s"Listening at port $port")
@@ -49,8 +49,9 @@ object SampleServer8 extends App{
     //this is very imp => if we passed requestCountdirectly to future body,its value might get changed by the time body is executed
     val request = requestCount
     val clientSocket: Socket = serverSocket.accept()
-    println(s"request received,making a future call to process this request request number $requestCount")
-    Future(Handler8.run(clientSocket,request,handlerpool))(ec)
+    println(s"request received,making a future call to process this request: $requestCount")
+    Future(Handler8.run(clientSocket,request))(ec)//this can handle many requests
+    //Future(Handler8.run(clientSocket,request))//this will block after 5 requests?????
     requestCount += 1
   }
 }
